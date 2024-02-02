@@ -1,0 +1,66 @@
+Task 1:
+input:[Roles|Ent|ABC|XYZ]
+output:[Roles,Ent,ABC,XYZ]
+
+Task 2:
+Description:
+input:my name is nari
+output:My Name Is Nari
+
+Task 3:
+input:"[Bob,Ima,finster,Stephens,Flynn]";
+      "[Bob,Anderson,Antony,Finster,lennon]";
+Output: print unique elements
+
+
+Task 4:
+Input map = {1=[1,2], 2=[3,4,5,6], 3=[7,8,9]}
+Output: [1,2,3,4,5,6,7,8,9]
+
+Task 5:
+
+input:
+String firstname="abcdef"; 
+String lastname="ghijkl";
+add the last 3 letters of firstname and lastname through string handlings methods and forloop.
+expected output :
+String str = defjkl 
+
+Task 6:
+Input:
+Map m1 = new HashMap();
+m1.put("firstName","f1");
+m1.put("lastName","l1");
+m1.put("middleName","m1");
+
+Map m2 = new HashMap();
+m2.put("firstName","f2");
+m2.put("lastName","l2");
+m2.put("middleName","m2");
+
+
+expected output:-
+f1.l1.m1@gmail.com;
+f2.l2.m2@gmail.com;
+
+ 
+Task 7:
+Input:-
+1,2,3
+Output:-
+[1,1,2,2,3,3]
+
+
+Task 8:
+
+input:
+"OU=Austin,OU=Americas,OU=Demo,DC=training,DC=sampledemo,DC=com"
+"0U=Brazil,OU=Americas,OU=Demo,DC=training,DC=sampledemo,DC=com"
+"OU=Brussels,OU=Europe,OU=Demo,DC=training,DC=sampledemo,DC=com"
+"OU=Munich,OU=Europe,OU=Demo,DC=training,DC=sampledemo,DC=com" 
+
+Output:
+{ Americas=Austin,Brazil   Europe=Brussels,Munich }
+
+{Austin=Americas, Brazil=Americas, Brussels=Europe, Munich=Europe}
+
